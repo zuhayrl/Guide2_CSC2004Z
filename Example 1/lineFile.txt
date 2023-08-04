@@ -1,0 +1,7 @@
+Car
+Bike
+Plane
+Boat
+Cart
+Horse
+Jet
