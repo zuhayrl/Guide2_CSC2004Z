@@ -362,7 +362,6 @@ String newLine = line.substring(6,9); //start at index 6 and end at 8 not includ
 //here the variable newLine will have a value of "wor"
 //for Strings (and almost everything else the index starts at 0)
 //the substring method includes the first number but not the second so here it would be indexes 6, 7, 8
-
 ```
 
 With the substring method, you can also select all the text after a certain point, ie, all text from an index till the end of the string:
