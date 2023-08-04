@@ -237,7 +237,7 @@ public class FileName{
 }
 ```
 
-To read the contents we do the following
+### To read the contents we do the following
 
 **Initialise the `BufferedReader` and `FileReader` types:**
 
@@ -256,12 +256,12 @@ String fileName = textfile.txt;
 BufferedReader br = new BufferedReader(new FileReader(fileName));
 ```
 
-**To read a line from the file we use the `readLine() method:`**
+**To read a line from the file we use the `readLine()` method:**
 
 ```java
 String line;
 
-line = br.readLine(); //br id the BufferedReader as in the previos step
+line = br.readLine(); //br id the BufferedReader as in the previous step
 ```
 
 **Usually, you would want to read the entire file and be able to put each line in an array for example. This can be done as follows:**
@@ -280,3 +280,61 @@ catch(IOException e){System.err.println(e.getMessage());}
 ```
 
 Here I used a try, catch clause, as Java needs you to catch any errors that may arise from trying to access a text file. You can import the `IOException` class from the `java.io` library.
+
+## Writing to a Text File
+
+To write to a text file you will need to use a method that allows you to edit the contents of the text file. There are multiple ways to do this, however, I highly recommend `BufferedWriter` and `FileWriter`. These work together.
+
+To use these you will need to import them from the `java.io` library. As mentioned before you can either import the entire library or just the methods you need. Here is an example of importing the whole library:
+
+### To write to the file we do the following
+
+**Initialise the `BufferedWriter` and `FileWriter` types:**
+
+```java
+String fileName = textfile.txt;
+
+FileWriter fw = new FileWriter(fileName);
+BufferedWriter bw = new BufferedWriter(fw);
+```
+
+Alternatively, it can be simplified to:
+
+```java
+String fileName = textfile.txt;
+
+BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
+```
+
+**To write a line to the file we use the `write()` and `newLine()` methods:**
+
+```java
+String line;
+
+line = bw.write(); //bw id the BufferedWriter as in the previous step
+bw.newLine();
+```
+
+**Usually, you would want to write multiple lines, probably from an array. This can be done as follows:**
+
+```java
+ArrayList<String> lines = new ArrayList<String>();
+
+lines.add("one"); //adding elements to the array
+lines.add("two");
+lines.add("three");
+
+try (BufferedWriter bw = new BufferedWriter(new FileWriter(fileName))){
+  for (int i = 0;i < lines.size();i++){
+    bw.write(lines.get(i));
+    bw.newLine();
+  }
+}
+catch(IOException e){System.err.println(e.getMessage());}
+```
+
+Here I used a try, catch clause, as Java needs you to catch any errors that may arise from trying to access a text file. You can import the `IOException` class from the `java.io` library.
+
+# String Manipulation
+
+
