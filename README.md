@@ -3,12 +3,12 @@
 For this guide, I will be splitting it into sections. These are:
 
 * [Setting up a Java File](#Setting-up-a-Java-File)
-* Receiving Input
-* Variable Types
-* Arrays
-* Loops
-* Reading and writing to textfiles.
-* String manipulation
+* [Receiving Input](#Receiving-Input)
+* [Variable Types](#Variable-Types)
+* [Arrays](#Arrays)
+* [Loops](#Loops)
+* [Reading and Writing to Text Files](#Reading-and-Writing-to-Text-File)
+* [String Manipulation](#String-Manipulation)
 * Maps, Matrices, and 2D Arrays
 * Other
 
