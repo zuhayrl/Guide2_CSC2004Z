@@ -67,3 +67,16 @@ Now to assign the input from the Scanner to a string variable we do the followin
 String inputtedText;
 inputtedText = keyboard.nextLine();
 ```
+There are other methods you can use instead of nextLine() but I prefer nextLine() as it takes all the text until you press enter.
+
+# Variable Types
+
+During the test, you will deal with multiple variable types, mainly String int, and boolean.
+
+Initialising these can be done as follows:
+
+```java
+String word;
+int number;
+boolean choice; #nb the default state for a boolean is false
+```
