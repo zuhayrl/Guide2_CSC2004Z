@@ -348,3 +348,18 @@ FileWriter fw = new FileWriter(fileName,true);
 
 String manipulation is one of the most important parts of the test. You will need to be able to select certain components within a string, print formatted strings, and more.
 
+**The most important method for string manipulation are `substring()` and `indexOf()`.**
+
+## The substring method
+
+The substring method allows you to take a certain part of a string and assign it to a variable:
+
+```java
+String line = "hello world";
+
+String newLine = line.substring(6,9); //start at index 6 and end at 8 not including 8
+
+//here the variable newLine will have a value of "wor"
+
+```
+
