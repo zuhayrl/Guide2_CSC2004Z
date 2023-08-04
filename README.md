@@ -67,6 +67,7 @@ Now to assign the input from the Scanner to a string variable we do the followin
 String inputtedText;
 inputtedText = keyboard.nextLine();
 ```
+
 There are other methods you can use instead of nextLine() but I prefer nextLine() as it takes all the text until you press enter.
 
 # Variable Types
