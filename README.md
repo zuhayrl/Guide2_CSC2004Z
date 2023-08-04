@@ -355,11 +355,23 @@ String manipulation is one of the most important parts of the test. You will nee
 The substring method allows you to take a certain part of a string and assign it to a variable:
 
 ```java
-String line = "hello world";
+String line = "hello world :)";
 
 String newLine = line.substring(6,9); //start at index 6 and end at 8 not including 8
 
 //here the variable newLine will have a value of "wor"
+//for Strings (and almost everything else the index starts at 0)
+//the substring method includes the first number but not the second so here it would be indexes 6, 7, 8
 
+```
+
+With the substring method, you can also select all the text after a certain point, ie, all text from an index till the end of the string:
+
+```java
+String line = "hello world :)";
+
+String newLine = line.substring(6); //start at 6 and include everything till the end of the string
+
+//the value of newLine here would be "world :)"
 ```
 
