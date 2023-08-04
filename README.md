@@ -96,13 +96,30 @@ int num = 100;
 String word = String.valueOf(num);
 ```
 
+# Arrays
+
+During the test, you will most likely need to use a type of array. I highly recommend ArrayList as it's extremely easy to use. You will need to import the java.util library (as shown here)
+
+To create an array we do the following:
+
+```java
+//String Array
+ArrayList<String> = new ArrayList<String>();
+
+//int Array
+ArrayList<int> = new ArrayList<int>();
+
+//other types
+ArrayList<type/class> = new ArrayList<type/class>();
+```
+
 # Reading and Writing to Text File
 
 ## Reading from a Text File
 
 To read from a text file you will need to use a method that allows you to take the text file contents as an input. There are multiple ways to do this, however, I highly recommend BufferedReader and FileReader. These work together.
 
-To use these you will need to import them from the java.io library. As mentioned before you can either import the entire library or jut the methods you need. Here is an example of importing the whole library:
+To use these you will need to import them from the java.io library. As mentioned before you can either import the entire library or just the methods you need. Here is an example of importing the whole library:
 
 ```java
 import java.io.*;
@@ -114,6 +131,6 @@ public class FileName{
 }
 ```
 
+To read the contents
 
 
-As you can see we put imports before the classes.
