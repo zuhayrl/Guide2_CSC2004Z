@@ -239,7 +239,7 @@ public class FileName{
 
 To read the contents we do the following
 
-**Initialise the `BufferedReader` and `FileReader` types.**
+**Initialise the `BufferedReader` and `FileReader` types:**
 
 ```java
 String fileName = textfile.txt;
@@ -256,5 +256,27 @@ String fileName = textfile.txt;
 BufferedReader br = new BufferedReader(new FileReader(fileName));
 ```
 
+**To read a line from the file we use the `readLine() method:`**
 
+```java
+String line;
 
+line = br.readLine(); //br id the BufferedReader as in the previos step
+```
+
+**Usually, you would want to read the entire file and be able to put each line in an array for example. This can be done as follows:**
+
+```java
+ArrayList<String> lines = new ArrayList<String>();
+
+try (BufferedReader br = new BufferedReader(new FileReader(fileName))){
+  String line;
+            
+  while ((line=br.readLine()) != null){
+                lines.add(line);
+  }
+}
+catch(IOException e){System.err.println(e.getMessage());}
+```
+
+Here I used a try, catch clause, as Java needs you to catch any errors that may arise from trying to access a text file. You can import the `IOException` class from the `java.io` library.
