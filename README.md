@@ -81,3 +81,18 @@ String word;
 int number;
 boolean choice; //nb the default state for a boolean is false
 ```
+
+## Converting Types
+
+In my opinion the easiest way to convert from one type to another is to use the .valueOf() method as it works for both String to int and int to String.
+
+```java
+//String to int
+String word = "100";
+int num = Integer.valueOf(word);
+
+//int to String
+int num = 100;
+String word = String.valueOf(num);
+```
+
