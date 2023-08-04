@@ -82,9 +82,9 @@ int number;
 boolean choice; //nb the default state for a boolean is false
 ```
 
-## Converting Types
+## Converting Between Types
 
-In my opinion the easiest way to convert from one type to another is to use the `valueOf()` method as it works for both String to int and int to String.
+In my opinion, the easiest way to convert from one type to another is to use the `valueOf()` method as it works for both String to int and int to String.
 
 ```java
 //String to int
@@ -161,6 +161,46 @@ strings.size();
 ```
 
 This will return the size of the ArrayList as an integer.
+
+# Loops
+
+## For Loop
+
+The `for` loop loops until a certain condition is met, usually numeric (not a boolean condition).
+
+### Examples
+
+Here we initialise the variable i, then told the loop that it must loop while the value of i is less than or equal to 10, in increments of 1
+
+```java
+//loop from 0 to 10
+for (int i=0; i<=10; i++){
+  //code here
+}
+```
+
+Here we initialise the variable i, then told the loop that it must loop while the value of i is greater than or equal to 0, in decrements of 1
+
+```java
+//loop from 10 to 0
+for (int i=10; i>=0; i--){
+  //code here
+}
+```
+
+Here we initialise the variable i, then told the loop that it must loop while the value of i is less than or equal to 10, in increments of 2
+
+```java
+//loop from 0 to 10 in twos (0, 2, 4, 6, 8, 10)
+for (int i=0; i<=10; i-+2){
+  //code here
+}
+```
+
+## While loops
+
+The `while` loop loops infinitely as long as the specified condition remains `true`.
+
 
 # Reading and Writing to Text File
 
