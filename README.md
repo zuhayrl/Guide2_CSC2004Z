@@ -2,7 +2,7 @@
 
 For this guide, I will be splitting it into sections. These are:
 
-* [Setting up a Java File](#Setting up a Java File)
+* [Setting up a Java File](#Setting-up-a-Java-File)
 * Receiving Input
 * Variable Types
 * Arrays
