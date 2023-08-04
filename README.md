@@ -113,16 +113,54 @@ ArrayList<int> nums = new ArrayList<int>();
 ArrayList<type/class> items = new ArrayList<type/class>();
 ```
 
+I will be using the ArrayList called **strings** in the next few examples.
+
 ## Add Items
 
-To add items to the list we use the `add()` method
+To add items to the list we use the `add()` method:
 
 ```java
-ArrayList<String> strings = new ArrayList<String>();
-
 strings.add("text lol");
 ```
 
+## Get Item
+
+To get a specific item in the list we use the `get()` method:
+
+```java
+strings.get(0); //returns item at index 0
+```
+
+## Set Item
+
+To set a specific item in the list we use the `set()` method:
+
+```java
+strings.set(0, "word "); //set item at index 0 to "word"
+```
+
+## Remove Item
+
+To remove a specific item in the list we use the `remove()` method:
+
+```java
+strings.remove(0); //removes item at index 0
+```
+
+To remove all the items in the array we use the `clear()` method:
+
+```java
+strings.clear();
+```
+
+## Get Array Size
+
+To get the array size we use the `size()` method:
+```java
+strings.size();
+```
+
+This will return the size of the ArrayList as an integer.
 
 # Reading and Writing to Text File
 
