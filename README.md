@@ -4,6 +4,7 @@ For this guide, I will be splitting it into sections. These are:
 
 * Setting up a Java File
 * Receiving Input
+* Variable Types
 * Reading and writing to textfiles.
 * String manipulation
 * Loops
@@ -23,3 +24,33 @@ public class FileName{
   }
 }
 ```
+
+## Receiving Input
+
+To receive input from your keyboard you will need to use a Scanner. To use scanner you will need to import the java.util library. I recommend you import the entire library as you might use other things from it.
+
+To import the library do the following:
+
+```java
+import java.util.*;
+
+public class FileName{
+  public static void main(String[] args){
+
+  }
+}
+```
+
+Alternatively, you can just import the Scanner class:
+
+```java
+import java.util.Scanner;
+
+public class FileName{
+  public static void main(String[] args){
+
+  }
+}
+```
+
+
