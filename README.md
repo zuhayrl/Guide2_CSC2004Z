@@ -199,7 +199,24 @@ for (int i=0; i<=10; i-+2){
 
 ## While loops
 
-The `while` loop loops infinitely as long as the specified condition remains `true`.
+The `while` loop loops infinitely as long as the specified condition remains `true`:
+
+```java
+while(condition){
+  //code here
+}
+```
+
+Example:
+This code loops until x equals 5.
+
+```java
+int x = 0;
+
+while(x<5){
+  x++;
+}
+```
 
 
 # Reading and Writing to Text File
