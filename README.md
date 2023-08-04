@@ -83,7 +83,7 @@ int number;
 boolean choice; //nb the default state for a boolean is false
 ```
 
-# Converting Between Types
+## Converting Between Types
 
 In my opinion, the easiest way to convert from one type to another is to use the `valueOf()` method as it works for both String to int and int to String.
 
