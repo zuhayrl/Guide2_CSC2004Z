@@ -377,3 +377,51 @@ String newLine = line.substring(6); //start at 6 and include everything till the
 ## The indexOf method
 
 The `indexOf()` method allows you to find the index of a character in a string.
+
+```java
+String line = "hello world :)";
+
+int pos = line.indexOf("o");
+
+//here the value of pos will be 4 as the first instance of "o" is at the fourth index.
+```
+
+`indexOf()` can also be used to locate the position of a word in a sentence:
+
+```java
+String line = "my name is jeff";
+
+int pos = line.indexOf("is");
+
+//here the value of pos will be 2 as the word "is" is the third word in the string
+```
+
+`indexOf()` can also be used to locate the position of a substring in a string:
+
+```java
+String line = "mynameisjeff";
+
+int pos = line.indexOf("is");
+
+//here the value of pos will be 6 as the "i" in "is" is located at the 6th index of the string
+```
+
+We can also find the second or third, etc index of a letter/substring, etc:
+
+```java
+String line = "hello world :)";
+
+int pos = line.indexOf("", line.indexOf("") + 1);
+//returns the index of the second occurrence of "o"
+```
+
+## The length method
+
+The `length()` method returns the length of a string:
+
+```java
+String line = "hello world";
+int len = length(line);
+
+//here len will equal 11
+```
