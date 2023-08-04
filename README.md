@@ -11,8 +11,8 @@ This is a work in progress lmao, so please bear with me, and if you find any mis
 * [Loops](#Loops)
 * [Reading and Writing to Text Files](#Reading-and-Writing-to-Text-File)
 * [String Manipulation](#String-Manipulation)
-* Maps, Matrices, and 2D Arrays
-* Other
+* Maps, Matrices, and 2D Arrays (Work in Progress)
+* Other (Work in Progress)
 
 # Setting up a Java File
 
