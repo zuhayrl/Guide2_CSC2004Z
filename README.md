@@ -6,9 +6,9 @@ For this guide, I will be splitting it into sections. These are:
 * Receiving Input
 * Variable Types
 * Arrays
+* Loops
 * Reading and writing to textfiles.
 * String manipulation
-* Loops
 * Other
 
 ## Setting up a Java File
