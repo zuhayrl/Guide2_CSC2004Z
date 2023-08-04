@@ -5,10 +5,10 @@ For this guide, I will be splitting it into sections. These are:
 * Setting up a Java File
 * Receiving Input
 * Variable Types
+* Arrays
 * Reading and writing to textfiles.
 * String manipulation
 * Loops
-* Arrays
 * Other
 
 ## Setting up a Java File
@@ -96,3 +96,24 @@ int num = 100;
 String word = String.valueOf(num);
 ```
 
+# Reading and Writing to Text File
+
+## Reading from a Text File
+
+To read from a text file you will need to use a method that allows you to take the text file contents as an input. There are multiple ways to do this, however, I highly recommend BufferedReader and FileReader. These work together.
+
+To use these you will need to import them from the java.io library. As mentioned before you can either import the entire library or jut the methods you need. Here is an example of importing the whole library:
+
+```java
+import java.io.*;
+
+public class FileName{
+  public static void main(String[] args){
+
+  }
+}
+```
+
+
+
+As you can see we put imports before the classes.
