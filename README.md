@@ -223,9 +223,9 @@ while(x<5){
 
 ## Reading from a Text File
 
-To read from a text file you will need to use a method that allows you to take the text file contents as an input. There are multiple ways to do this, however, I highly recommend BufferedReader and FileReader. These work together.
+To read from a text file you will need to use a method that allows you to take the text file contents as an input. There are multiple ways to do this, however, I highly recommend `BufferedReader` and `FileReader`. These work together.
 
-To use these you will need to import them from the java.io library. As mentioned before you can either import the entire library or just the methods you need. Here is an example of importing the whole library:
+To use these you will need to import them from the `java.io` library. As mentioned before you can either import the entire library or just the methods you need. Here is an example of importing the whole library:
 
 ```java
 import java.io.*;
@@ -237,6 +237,24 @@ public class FileName{
 }
 ```
 
-To read the contents
+To read the contents we do the following
+
+**Initialise the `BufferedReader` and `FileReader` types.**
+
+```java
+String fileName = textfile.txt;
+
+FileReader fr = new FileReader(fileName);
+BufferedReader br = new BufferedReader(fr);
+```
+
+Alternatively, it can be simplified to:
+
+```java
+String fileName = textfile.txt;
+
+BufferedReader br = new BufferedReader(new FileReader(fileName));
+```
+
 
 
