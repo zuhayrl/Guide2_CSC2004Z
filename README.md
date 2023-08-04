@@ -13,8 +13,8 @@ For this guide, I will be splitting it into sections. These are:
 ## Setting up a Java File
 ```java
 public class FileName{
-	public static void main(String[] args){
+public static void main(String[] args){
 
-	}
+}
 }
 ```
