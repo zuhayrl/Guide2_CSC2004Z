@@ -12,7 +12,7 @@ For this guide, I will be splitting it into sections. These are:
 * Maps, Matrices, and 2D Arrays
 * Other
 
-## Setting up a Java File
+# Setting up a Java File
 
 First, you want to start with the correct format for the file. Yes, I know you're not stupid but I promise you it's an easy mistake to make. Always make sure your class name has the same name as your file.
 
@@ -26,7 +26,7 @@ public class FileName{
 }
 ```
 
-## Receiving Input
+# Receiving Input
 
 To receive input from your keyboard you will need to use a Scanner. To use scanner you will need to import the `java.util` library. I recommend you import the entire library as you might use other things from it.
 
@@ -83,7 +83,7 @@ int number;
 boolean choice; //nb the default state for a boolean is false
 ```
 
-## Converting Between Types
+# Converting Between Types
 
 In my opinion, the easiest way to convert from one type to another is to use the `valueOf()` method as it works for both String to int and int to String.
 
