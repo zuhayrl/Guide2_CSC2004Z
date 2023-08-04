@@ -335,6 +335,15 @@ catch(IOException e){System.err.println(e.getMessage());}
 
 Here I used a try, catch clause, as Java needs you to catch any errors that may arise from trying to access a text file. You can import the `IOException` class from the `java.io` library.
 
+## Appending to a File
+
+To append text to the end of a text file we can make one small change to the `FileWriter`:
+
+```java
+//here we enable appending, by setting the second condition of FileWriter to true
+FileWriter fw = new FileWriter(fileName,true);
+```
+
 # String Manipulation
 
 
