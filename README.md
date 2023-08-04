@@ -27,7 +27,7 @@ public class FileName{
 
 ## Receiving Input
 
-To receive input from your keyboard you will need to use a Scanner. To use scanner you will need to import the java.util library. I recommend you import the entire library as you might use other things from it.
+To receive input from your keyboard you will need to use a Scanner. To use scanner you will need to import the `java.util` library. I recommend you import the entire library as you might use other things from it.
 
 To import the library do the following:
 
@@ -68,11 +68,11 @@ String inputtedText;
 inputtedText = keyboard.nextLine();
 ```
 
-There are other methods you can use instead of nextLine() but I prefer nextLine() as it takes all the text until you press enter.
+There are other methods you can use instead of `nextLine()` but I prefer `nextLine()` as it takes all the text until you press enter.
 
 # Variable Types
 
-During the test, you will deal with multiple variable types, mainly String int, and boolean.
+During the test, you will deal with multiple variable types, mainly `String`, `int`, and `boolean`.
 
 Initialising these can be done as follows:
 
@@ -84,7 +84,7 @@ boolean choice; //nb the default state for a boolean is false
 
 ## Converting Types
 
-In my opinion the easiest way to convert from one type to another is to use the .valueOf() method as it works for both String to int and int to String.
+In my opinion the easiest way to convert from one type to another is to use the `valueOf()` method as it works for both String to int and int to String.
 
 ```java
 //String to int
@@ -98,20 +98,31 @@ String word = String.valueOf(num);
 
 # Arrays
 
-During the test, you will most likely need to use a type of array. I highly recommend ArrayList as it's extremely easy to use. You will need to import the java.util library (as shown here)
+During the test, you will most likely need to use a type of array. I highly recommend `ArrayList` as it's extremely easy to use. You will need to import the `java.util` library (as shown here)
 
 To create an array we do the following:
 
 ```java
 //String Array
-ArrayList<String> = new ArrayList<String>();
+ArrayList<String> strings = new ArrayList<String>();
 
 //int Array
-ArrayList<int> = new ArrayList<int>();
+ArrayList<int> nums = new ArrayList<int>();
 
 //other types
-ArrayList<type/class> = new ArrayList<type/class>();
+ArrayList<type/class> items = new ArrayList<type/class>();
 ```
+
+## Add Items
+
+To add items to the list we use the `add()` method
+
+```java
+ArrayList<String> strings = new ArrayList<String>();
+
+strings.add("text lol");
+```
+
 
 # Reading and Writing to Text File
 
