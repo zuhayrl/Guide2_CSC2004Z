@@ -346,4 +346,5 @@ FileWriter fw = new FileWriter(fileName,true);
 
 # String Manipulation
 
+String manipulation is one of the most important parts of the test. You will need to be able to select certain components within a string, print formatted strings, and more.
 
