@@ -79,5 +79,5 @@ Initialising these can be done as follows:
 ```java
 String word;
 int number;
-boolean choice; #nb the default state for a boolean is false
+boolean choice; //nb the default state for a boolean is false
 ```
