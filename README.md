@@ -1,6 +1,8 @@
 # A Guide to Passing CSC2004Z
 
-For this guide, I will be splitting it into sections. These are:
+This is a work in progress lmao, so please bear with me, and if you find any mistakes please let me know by email: zuhayr.loonat@gmail.com
+
+**For this guide, I will be splitting it into sections. These are:**
 
 * [Setting up a Java File](#Setting-up-a-Java-File)
 * [Receiving Input](#Receiving-Input)
