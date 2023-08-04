@@ -55,10 +55,15 @@ public class FileName{
 
 As you can see we put imports before the classes.
 
-Now, to use the scanner we will need to initialise it to take the keyboard input: (nb: i prefer to call my Scanner keyboard but you can call it whatever you like)
+Now, to use the scanner we will need to initialise it to take the keyboard input: (nb: I prefer to call my Scanner keyboard but you can call it whatever you like)
 
 ```java
 Scanner keyboard = new Scanner(System.in);
 ```
 
+Now to assign the input from the Scanner to a string variable we do the following:
 
+```java
+String inputtedText;
+inputtedText = keyboard.nextLine();
+```
