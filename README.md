@@ -1,6 +1,6 @@
 # A Guide to Passing CSC2004Z
 
-This is a work in progress lmao, so please bear with me, and if you find any mistakes please let me know by email: zuhayr.loonat@gmail.com
+This is a work in progress lmao, so please bear with me, and if you find any mistakes or have any input please let me know by email: zuhayr.loonat@gmail.com
 
 **For this guide, I will be splitting it into sections. These are:**
 
