@@ -1,4 +1,4 @@
-# Guide2_CSC2004Z
+# A Guide to Passing CSC2004Z
 
 For this guide, I will be splitting it into sections. These are:
 
